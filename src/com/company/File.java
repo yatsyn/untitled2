@@ -5,7 +5,7 @@ import java.io.*;
 /**
  * Created by ivan on 01.03.2016.
  */
-public class file {
+public class File {
 
     public static String[] openFile(String fileName) throws IOException, ClassNotFoundException {
         ObjectInputStream objectInputStream = new ObjectInputStream(new FileInputStream(fileName));
