@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**
  * Created by ivan on 06.03.2016.
  */
-public class search {
+public class Search {
 
     public static int findFreeId(boolean[] idents) {
         for (int i = 0; i < idents.length; i++) {
