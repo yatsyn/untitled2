@@ -6,7 +6,7 @@ import java.util.Scanner;
 /**
  * Created by ivan on 06.03.2016.
  */
-public class print {
+public class Print {
 
     public static void printAllRecords(boolean[] idents, String[] names, String[] numbers, int[] day, int[] month, int[] year) {
         printHeader();
